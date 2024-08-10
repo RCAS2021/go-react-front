@@ -57,7 +57,7 @@ export function Message({
   return (
     <li
       data-answered={answered}
-      className="ml-4 leading-relaxed text-zinc-100 data-[answered=true]:opacity-70 data-[answered=true]:pointer-events-none"
+      className="ml-4 leading-relaxed text-zinc-100 data-[answered=true]:opacity-50 data-[answered=true]:pointer-events-none"
     >
       {" "}
       {text}
